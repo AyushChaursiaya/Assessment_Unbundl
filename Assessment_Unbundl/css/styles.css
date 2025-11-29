@@ -1371,7 +1371,6 @@ section {
   flex-direction: column;
   justify-content: center;
   gap: 10px;
- 
 }
 
 .form-input-group input {
@@ -1442,7 +1441,7 @@ section {
   overflow: hidden;
   height: 100%;
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
 }
 
 .plan-image {
@@ -1462,9 +1461,8 @@ section {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  width: 60%; 
+  width: 60%;
 }
-
 
 .plan-details h2 {
   font-size: 1.2rem;
@@ -1677,8 +1675,6 @@ footer {
   margin-bottom: 40px;
 }
 
-
-
 .footer-logo {
   flex-shrink: 0;
 }
@@ -1752,7 +1748,6 @@ footer {
   font-weight: 600;
 }
 
-
 @media (max-width: 2560px) {
   .container {
     max-width: 100%;
@@ -1767,14 +1762,14 @@ footer {
     width: 100%;
   }
 
-    footer {
+  footer {
     padding: 50px 0 25px 0;
   }
-  
+
   .footer-content {
     margin-bottom: 35px;
   }
-  
+
   .footer-logo .logo-text {
     font-size: 2rem;
   }
@@ -2478,16 +2473,16 @@ footer {
 
   .dental-plan-container {
     height: auto;
-    flex-direction: column; 
+    flex-direction: column;
   }
 
   .plan-image {
-    width: 100%; 
-    height: 200px; 
+    width: 100%;
+    height: 200px;
   }
 
   .plan-content {
-    width: 100%; 
+    width: 100%;
     padding: 20px;
   }
 
@@ -2555,38 +2550,38 @@ footer {
   footer {
     padding: 40px 0 20px 0;
   }
-  
+
   .footer-container {
     padding: 0 25px;
   }
-  
+
   .footer-content {
     flex-direction: column;
     gap: 30px;
     margin-bottom: 30px;
   }
-  
+
   .footer-logo {
     text-align: center;
     width: 100%;
   }
-  
+
   .footer-logo .logo-text {
     font-size: 1.8rem;
     display: inline-block;
   }
-  
+
   .footer-links {
     align-items: center;
     text-align: center;
     width: 100%;
   }
-  
+
   .footer-links-row {
     justify-content: center;
     gap: 25px;
   }
-  
+
   .footer-copyright {
     text-align: center;
     margin: 0 auto;
@@ -3340,34 +3335,34 @@ footer {
   footer {
     padding: 30px 0 15px 0;
   }
-  
+
   .footer-container {
     padding: 0 20px;
   }
-  
+
   .footer-content {
     gap: 25px;
     margin-bottom: 25px;
   }
-  
+
   .footer-logo .logo-text {
     font-size: 1.6rem;
   }
-  
+
   .footer-links-row {
     gap: 20px;
     flex-direction: column;
   }
-  
+
   .footer-links-row div {
     font-size: 0.85rem;
   }
-  
+
   .footer-copyright {
     font-size: 0.8rem;
     max-width: 100%;
   }
-  
+
   .footer-divider {
     margin: 20px 0;
   }
@@ -3597,7 +3592,7 @@ footer {
   }
 
   .faq-container {
-    padding: 0 15px;
+    padding: 0 4px;
   }
 
   .faq-header h2 {
@@ -3606,6 +3601,13 @@ footer {
 
   .faq-header p {
     font-size: 0.85rem;
+  }
+
+  .faq-items {
+    margin: 0 5px !important;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
   }
 
   .faq-question {
@@ -3637,27 +3639,27 @@ footer {
   footer {
     padding: 25px 0 15px 0;
   }
-  
+
   .footer-container {
     padding: 0 15px;
   }
-  
+
   .footer-logo .logo-text {
     font-size: 1.4rem;
   }
-  
+
   .footer-logo .logo-text p {
     font-size: 0.7rem;
   }
-  
+
   .footer-links-row div {
     font-size: 0.8rem;
   }
-  
+
   .footer-copyright {
     font-size: 0.75rem;
   }
-  
+
   .footer-divider {
     margin: 15px 0;
   }
